@@ -1,0 +1,153 @@
+.movie_list {
+  border: solid 1px #2d435d;
+  margin-left: 0px;
+  border-radius: 8px;
+}
+
+.movie_board_border {
+  margin: 15px;
+  padding-bottom: 15px;
+  border: solid 1px #2d435d;
+  border-radius: 8px;
+  background-color: #1f2936;
+  color: #e0e5ec;
+  font: 16px "Montserrat", sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 350px;
+}
+
+.movie_board {
+  display: flex;
+  margin-bottom: 25px;
+  gap: 20px;
+}
+
+.movie_main_image {
+  height: 240px;
+  width: 160px;
+  border-radius: 8px;
+  margin-top: 10px;
+  z-index: 0;
+  margin: 15px;
+}
+
+.movie_title {
+  margin-bottom: 12px;
+  font-size: 32px;
+  color: #8499c3;
+}
+
+.all_info {
+  line-height: 1.7;
+  color: #bac7e2;
+  border: solid 1px #8499c3;
+  border-radius: 3%;
+  padding: 2px;
+  margin-top: 10px;
+  background-color: #18202a;
+}
+
+.movie_info_static {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.movie-info {
+  margin-left: 12px;
+  font-style: italic;
+}
+
+.genre_info {
+  margin-right: 10px;
+  color: #bac7e2;
+}
+
+.movie_rate {
+  margin-left: 12px;
+  margin-right: 0px;
+  color: #ffffff;
+  font-size: 22px;
+  border-radius: 8px;
+  padding: 2px 12px;
+}
+
+.movie_info_rate {
+  margin: 40px;
+  font-size: 20px;
+}
+
+.favourite_mark {
+  margin: 10px;
+  color: #ff0000;
+}
+
+.genre_list {
+  color: #e0e5ec;
+  margin-top: 25px;
+  padding: 25px;
+  margin-left: 25px;
+  font-size: large;
+  background-color: #1f2936;
+  border-radius: 8px;
+  border: solid 1px #e0e5ec;
+  max-height: 400px;
+}
+
+.genres_board {
+  margin-right: 10px;
+  font-size: 14px;
+  font-style: italic;
+  border: solid 1px #e0e5ec;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.sort_buttons_board {
+  width: fit-content; /* Устанавливает ширину блока в зависимости от содержимого */
+  margin-right: auto; /* Смещает блок вправо */
+  color: #e0e5ec;
+  padding: 5px;
+  display: flex;
+}
+
+.sortirovatb {
+  margin-right: 15px;
+  align-self: center;
+}
+
+.sort_button {
+  color: #e0e5ec;
+  background-color: #1f2936;
+  border: solid 1px #8499c3;
+  padding: 10px;
+}
+
+.app {
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #18202a;
+  border-radius: 10px;
+  max-width: 1200px;
+  border: solid 1px #8499c3;
+}
+
+li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.movie_page {
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #18202a;
+  border-radius: 10px;
+  max-width: 1200px;
+  border: solid 1px #8499c3;
+}
+
+.comm_post {
+  color: #b1bbd0;
+  border: solid 1px #b1bbd0;
+  display: flex;
+}
